@@ -32,9 +32,11 @@ body{
 .formulario-login input{
     width: 100%;
     outline: none;
-    background: #fff;
-    border-bottom: 1px solid #000;
-    border: 0;
+    background: transparent;
+    border: solid 1px;
+    border-left: none;
+    border-right: none;
+    border-top: #0A0A0A;   
     padding: 0px 49px 4px 13px ;
     align-items: flex-end;
     gap: 10px;
