@@ -1,0 +1,21 @@
+
+.bloco-login .input-box input{
+    display: inline-flex;
+    padding: 0px 49px 4px 13px;
+    align-items: flex-end;
+    gap: 10px;
+    border-bottom: 1px solid #000;
+    
+}
+.botão{
+    display: flex;
+    width: 646px;
+    padding: 14px 224px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 13px;
+    background: #F3A310;
+
+}
