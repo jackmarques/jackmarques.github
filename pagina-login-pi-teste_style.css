@@ -1,11 +1,26 @@
-
-.bloco-login .input-box input{
+.pagina{
+    width: 1920px;
+    height: 1080px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.formulario-login label{
+    width: 114px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22.777px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.formulario-login input{
     display: inline-flex;
     padding: 0px 49px 4px 13px;
     align-items: flex-end;
     gap: 10px;
     border-bottom: 1px solid #000;
-    
 }
 .botão{
     display: flex;
@@ -17,5 +32,4 @@
     gap: 10px;
     border-radius: 13px;
     background: #F3A310;
-
 }
