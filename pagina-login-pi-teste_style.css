@@ -1,35 +1,56 @@
-.pagina{
-    width: 1920px;
-    height: 1080px;
-    background: #F1F1F1;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.formulario-login label{
-    width: 114px;
-    height: 36px;
-    flex-shrink: 0;
-    color: #000;
-    font-family: Poppins;
-    font-size: 22.777px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-}
-.formulario-login input{
-    display: inline-flex;
-    padding: 0px 49px 4px 13px;
-    align-items: flex-end;
-    gap: 10px;
-    border-bottom: 1px solid #000;
-}
-.botão{
+body{
     display: flex;
-    width: 646px;
-    padding: 14px 224px;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    Width: 646px;
+    Height: 545.71px;
+    Top: 247px;
+    Left: 226px;
+    Radius: 13px;
+    background: #F1F1F1;
+}
+.pagina h1{
+    width: 239.071px;
+    height: 58.555px;
+    flex-shrink: 0;
+    color: #0A0A0A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 37.012px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.formulario-login{
+    position: relative;
+}
+.formulario-login input{
+    width: 100%;
+    outline: none;
+    background: #fff;
+    border-bottom: 1px solid #000;
+    border: 0;
+    padding: 0px 49px 4px 13px ;
+    align-items: flex-end;
     gap: 10px;
+    margin-bottom: 30px;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
     border-radius: 13px;
     background: #F3A310;
+    margin-bottom: 10px;
+    outline: none;
+    border: 0;
+    color: #fff;
+    text-align: center;
+}
+.lembrar-esquecer-registrar{
+    text-align: center;
 }
