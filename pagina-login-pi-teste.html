@@ -4,30 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pagina-login-pi-teste_style.css">
-    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
-    <title>Tela de login</title>
+    <title>Login</title>
 
 </head>
 <body>
     
-    <div class="bloco-login">
-        <form action=""> <!--tag 'form'cria um bloco para 
-            que tags de formulário e seus dados sejam agrupados e encaminhados para outro documento, em conjunto.-->
+    <div class="pagina">
+        <form action=""> 
             <h1>Login</h1>
-            <div class="input-box">
-                <input type="text" required>
-                <i class='bx bxs-user'></i>
+            <div class="formulario-login">
+                <label for="matrcula">Matrícula:</label><br>
+                <input type="matricula" required><br>
+                <label for="senha">Senha:</label><br>
+                <input type="senha" required><br>
             </div>
-            <div class="input-box">
-                <input type="password" required>
-                <i class='bx bxs-lock-alt' ></i>
-            </div>
-                        
+            
             <button type="submit" class="botão">Entrar</button>
             
-            <div class="lembrar-esquecer, registrar">
+            <div class="lembrar-esquecer-registrar">
                 <a href="#"> Cadastrar-se</a>   
-                <a href="#"> Esqueceu a senha?</a> 
+                <a href="#"> Esqueceu a senha?</a>        
             </div>
             
         </form>
